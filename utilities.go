@@ -55,6 +55,7 @@ func ParseTemplatesRecursively(path, ext string) (*template.Template, error) {
 		return nil
 
 	})
+
 	if err != nil {
 		return tmp, err
 	}
